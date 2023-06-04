@@ -1,7 +1,7 @@
- require('dotenv').config();
+ //require('dotenv').config();
 // const { MNEMONIC, PROJECT_ID } = process.env;
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const mnemonic = 'poet also swing shoulder soft move message split junk heart planet door'
+const MNEMONIC = 'poet also swing shoulder soft move message split junk heart planet door'
 module.exports = {
   networks: {
     development: {
